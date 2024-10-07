@@ -1,4 +1,4 @@
-import img from '../assets/profile3.JPG';
+import img from '/home/janewmwaura/personalprojectportfolio/Personal-portfolio/personalportfolio/src/assets/jane.jpg';
 
 const About = () => {
     return (
@@ -15,16 +15,15 @@ const About = () => {
                     <span className="text-purple-800">ABOUT ME</span>
                 </h1>
                 <p data-aos='fade-left'>
-                    Although Scott said it didn't matter to him, he knew deep inside that it did. 
-                    They had been friends as long as he could remember and not once had he had to
-                    protest that something Joe apologized for doing didn't really matter. 
-                    Scott stuck to his lie and insisted again and again that everything was fine as Joe continued to apologize. 
-                    Scott already knew that despite his words accepting the apologies that their friendship would never be the same.
-                </p>
+                Hi, I’m Jane Wairimu Mwaura, a full-stack developer with a background in software engineering. 
+                I’ve recently completed my studies at Moringa School and transitioned from a career in sales to tech. 
+                I’m passionate about web development, especially front-end technologies like React and Tailwind CSS, and back-end development with Flask. 
+                I’m currently looking for opportunities to apply my skills in dynamic environments where I can continue learning and growing. 
+                My ultimate goal is to contribute to impactful projects that solve real-world problems.</p>
                 <div className="flex mt-8 gap-2">
                     <div className="flex items-center justify-center">
                         <div className="flex space-x-2">
-                            {/* Additional content can go here */}
+                            
                         </div>
                     </div>
                 </div>

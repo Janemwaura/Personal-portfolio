@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 const Nav = () => {
   return (
@@ -7,22 +7,23 @@ const Nav = () => {
       <div className="container mx-auto">
         <ul className="flex justify-end space-x-4">
           <li>
-            <Link to="/home" className="text-white hover:bg-purple-800 px-3 py-2 rounded-md">Home</Link>
+            <Link to="Home"span={true} smooth={true} className="text-white hover:bg-purple-800 px-3 py-2 rounded-md">Home</Link>
           </li>
           <li>
-            <Link to="/about" className="text-white hover:bg-purple-800 px-3 py-2 rounded-md">About</Link>
+            <Link to="About"span={true} smooth={true} className="text-white hover:bg-purple-800 px-3 py-2 rounded-md">About</Link>
           </li>
           <li>
-            <Link to="/services" className="text-white hover:bg-purple-800 px-3 py-2 rounded-md">Services</Link>
+            <Link to="Projects"span={true} smooth={true} className="text-white hover:bg-purple-800 px-3 py-2 rounded-md">Projects</Link>
           </li>
           <li>
-            <Link to="/projects" className="text-white hover:bg-purple-800 px-3 py-2 rounded-md">Projects</Link>
+            <Link to="Services"span={true} smooth={true} className="text-white hover:bg-purple-800 px-3 py-2 rounded-md">Services</Link>
           </li>
           <li>
-            <Link to="/contacts" className="text-white hover:bg-purple-800 px-3 py-2 rounded-md">Contact</Link>
+            <Link to="Contact"span={true} smooth={true} className="text-white hover:bg-purple-800 px-3 py-2 rounded-md">Contact</Link>
           </li>
         </ul>
       </div>
+      <div className="border-b border-slate-500 pt-4 w-full"></div>
     </nav>
   );
 };
