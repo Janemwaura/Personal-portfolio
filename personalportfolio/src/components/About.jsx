@@ -15,14 +15,14 @@ const About = () => {
                     <span className="text-purple-800">ABOUT ME</span>
                 </h1>
                 <p data-aos='fade-left'>
-                Hi, I’m Jane Wairimu Mwaura, a full-stack developer with a background in software engineering. 
-                I’ve recently completed my studies at Moringa School and transitioned from a career in sales to tech. 
-                I’m passionate about web development, especially front-end technologies like React and Tailwind CSS, and back-end development with Flask. 
+                Hi, I’m Jane Wairimu Mwaura, a full-stack developer with a background in Software Engineering. 
+                I’m passionate about software development. I enjoy turning simple lines of code to problem solving technlogies. 
                 I’m currently looking for opportunities to apply my skills in dynamic environments where I can continue learning and growing. 
                 My ultimate goal is to contribute to impactful projects that solve real-world problems.</p>
                 <div className="flex mt-8 gap-2">
                     <div className="flex items-center justify-center">
                         <div className="flex space-x-2">
+                        
                             
                         </div>
                     </div>

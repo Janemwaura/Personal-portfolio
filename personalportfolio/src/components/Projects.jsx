@@ -1,5 +1,6 @@
 import React from "react";
 import FitClub  from '/home/janewmwaura/personalprojectportfolio/Personal-portfolio/personalportfolio/src/assets/FitClub.png';
+import image from '/home/janewmwaura/personalprojectportfolio/Personal-portfolio/personalportfolio/src/assets/fairskinproject.png'
 import HutleMarketplace from '/home/janewmwaura/personalprojectportfolio/Personal-portfolio/personalportfolio/src/assets/HutleMarketplace.png';
 const Projects = () => {
     return (
@@ -8,22 +9,22 @@ const Projects = () => {
             <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-around gap-20">
             <a href="https://fitnessclub-6am.pages.dev" target="_blank" rel="noopener noreferrer">
                     <img 
-                        className="text -[26px] flex items-center justify-center rounded-3xl h-36 w-44 border-2 border-purple-800 b_glow" 
+                        className="text -[26px] flex items-center justify-center rounded-3xl h-60 w-62 border-2 border-purple-800 b_glow" 
                         src={FitClub} 
                         alt="FitClub Project" 
                     />
                 </a>
             <a href="https://the-hustle-market-place-the-hustle.onrender.com" target="_blank" rel="noopener noreferrer">
-                <img className="text -[26px] flex items-center justify-center rounded-3xl h-36 w-44 border-2 border-purple-800 b_glow"
+                <img className="text -[26px] flex items-center justify-center rounded-3xl h-60 w-62 border-2 border-purple-800 b_glow"
                 src={HutleMarketplace} 
                 alt="HutleMarketplace" />
 
             </a> 
             <a href="https://fairskinecommerce.pages.dev/" target="_blank" rel="noopener noreferrer">
                     <img 
-                        className="text -[26px] flex items-center justify-center rounded-3xl h-36 w-44 border-2 border-purple-800 b_glow" 
-                        src={FitClub} 
-                        alt="FitClub Project" 
+                        className="text -[26px] flex items-center justify-center rounded-3xl h-60 w-62 border-2 border-purple-800 b_glow" 
+                        src={image} 
+                        alt="fairskin Project" 
                     />
                 </a>   
                 <img src="" alt="" />
