@@ -18,7 +18,14 @@ const Projects = () => {
                 src={HutleMarketplace} 
                 alt="HutleMarketplace" />
 
-            </a>    
+            </a> 
+            <a href="https://fairskinecommerce.pages.dev/" target="_blank" rel="noopener noreferrer">
+                    <img 
+                        className="text -[26px] flex items-center justify-center rounded-3xl h-36 w-44 border-2 border-purple-800 b_glow" 
+                        src={FitClub} 
+                        alt="FitClub Project" 
+                    />
+                </a>   
                 <img src="" alt="" />
                 <img src="" alt="" />
             </div>
